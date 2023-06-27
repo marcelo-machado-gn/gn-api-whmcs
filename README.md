@@ -63,4 +63,5 @@ Caso ainda não tenha seu certificado, basta seguir o passo a passo do link a se
 20. **Validar mTLS:** Entenda os riscos de não configurar o mTLS acessando o link https://gnetbr.com/rke4baDVyd;
 21. **PIX:** Selecione essa opção caso deseje deixar a opção PIX como forma de pagamento;
 22. **Boleto:** Selecione essa opção caso deseje deixar a opção boleto como forma de pagamento;
-23. **Cartão de Crédito:** Selecione essa opção caso deseje deixar a opção de cartão de crédito como forma de pagamento.
+23. **Cartão de Crédito:** Selecione essa opção caso deseje deixar a opção de cartão de crédito como forma de pagamento;
+24. **Open Finance:** Selecione essa opção caso deseje deixar a opção de open finance como forma de pagamento.
