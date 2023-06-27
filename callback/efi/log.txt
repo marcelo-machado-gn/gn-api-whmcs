@@ -1,0 +1,92 @@
+Data/Hora: 2023-05-16 14:08:21 - Retorno da função addInvoicePayment: Erro
+{"invoiceID":null,"transactionId":43190565,"amount":"5.00","paymentFee":"1.25","gatewayModuleName":"efi"}Data/Hora: 2023-05-16 14:12:05 - Retorno da função addInvoicePayment: Sucesso
+{"invoiceID":null,"transactionId":43190567,"amount":"5.00","paymentFee":"1.25","gatewayModuleName":"efi"}2023-06-01 13:41:29 - {"identificadorPagamento":"urn:picpay:69d8cdef-9dd5-4c3e-b133-7ea7c491f552","valor":"0.01","status":"rejeitado","dataCriacao":"2023-06-01T16:41:16.000Z","endToEndId":"E0908935620230601164192e44ed18cd","idProprio":"Teste123","tipo":"pagamento","motivo":"Cobran\u00e7a inv\u00e1lida"}
+2023-06-01 13:43:06 - {"identificadorPagamento":"urn:picpay:ee2ac675-19d0-4373-a097-0d8e0c904f3f","valor":"0.01","status":"rejeitado","dataCriacao":"2023-06-01T16:37:52.000Z","endToEndId":"E09089356202306011637e602665b491","idProprio":"Teste123","tipo":"pagamento","motivo":"Cobran\u00e7a inv\u00e1lida"}
+2023-06-01 16:12:10 - {"identificadorPagamento":"urn:nubank:67d0cbd2-2175-31e2-a913-bdda34148ebd","valor":"0.01","status":"rejeitado","dataCriacao":"2023-06-01T19:11:57.000Z","endToEndId":"E09089356202306011911e46095838ed","idProprio":"158","tipo":"pagamento","motivo":"N\u00e3o informado"}
+2023-06-01 16:17:57 - {"identificadorPagamento":"urn:nubank:bc3d6ed6-095d-33d1-a561-702da1fb0cf7","valor":"0.60","status":"rejeitado","dataCriacao":"2023-06-01T19:17:44.000Z","endToEndId":"E09089356202306011917b8bd30b4d95","idProprio":"248","tipo":"pagamento","motivo":"N\u00e3o informado"}
+2023-06-01 16:27:35 - {}
+2023-06-01 16:28:14 - {"identificadorPagamento":"urn:picpay:9b3b646f-0978-4fff-9cd9-613e060fa3bc","status":"rejeitado","dataCriacao":"2023-06-01T19:28:13.482Z","idProprio":"249","tipo":"pagamento","motivo":"Autoriza\u00e7\u00e3o de pagamento foi negada pelo usu\u00e1rio"}
+2023-06-01 16:58:36 - {"identificadorPagamento":"urn:efi:0a6ab51d-5604-4d0a-9aa4-7f28639538a2","valor":"0.60","status":"aceito","dataCriacao":"2023-06-01T19:58:22.495Z","endToEndId":"ec2d0b5f-689d-4656-95b9-76ea2d558fda","idProprio":"254"}
+2023-06-01 17:05:18 - {}
+2023-06-06 13:21:48 - {"identificadorPagamento":"urn:efi:71a06eb7-95f1-4b13-901b-912fa158f6bf","valor":"0.60","status":"rejeitado","dataCriacao":"2023-06-06T16:21:47.725Z","idProprio":"254","tipo":"pagamento","motivo":"N\u00e3o informado"}
+2023-06-06 13:40:56 - {}
+2023-06-06 13:44:03 - {}
+2023-06-06 13:56:28 - {}
+2023-06-06 15:35:10 - {}
+2023-06-06 15:36:24 - {}
+2023-06-06 15:41:34 - {}
+2023-06-06 15:42:39 - {}
+2023-06-06 15:43:35 - {}
+2023-06-06 15:44:15 - {}
+2023-06-06 15:44:38 - {}
+2023-06-06 15:45:37 - {}
+2023-06-06 15:46:44 - {}
+2023-06-06 15:57:17 - {"identificadorPagamento":"urn:nubank:7a6429c4-b771-366f-89c1-6aabeb631377","valor":"0.60","status":"rejeitado","dataCriacao":"2023-06-06T18:57:04.000Z","endToEndId":"E0908935620230606185745546c28bd6","idProprio":"254","tipo":"pagamento","motivo":"N\u00e3o informado"}
+2023-06-06 16:23:04 - {"identificadorPagamento":"urn:nubank:c6b60455-b011-39d7-9e4b-3cf9e60037f0","valor":"0.60","status":"rejeitado","dataCriacao":"2023-06-06T19:22:51.000Z","endToEndId":"E09089356202306061922d991c63504a","idProprio":"258","tipo":"pagamento","motivo":"N\u00e3o informado"}
+2023-06-06 16:24:32 - {}
+2023-06-06 16:26:13 - {"identificadorPagamento":"urn:nubank:2d6a7f12-8b0c-3ca7-b094-ab8cc2b51392","valor":"0.60","status":"aceito","dataCriacao":"2023-06-06T19:26:00.000Z","endToEndId":"E090893562023060619259b0e6817ce0","idProprio":"258","tipo":"pagamento"}
+2023-06-06 16:27:32 - {"identificadorPagamento":"urn:picpay:61888cfc-5285-4db7-a018-afe120bef98b","valor":"0.01","status":"aceito","dataCriacao":"2023-06-06T19:27:19.000Z","endToEndId":"E09089356202306061927197b9c0781c","idProprio":"259","tipo":"pagamento"}
+2023-06-06 16:28:33 - null
+2023-06-06 16:43:03 - {"identificadorPagamento":"urn:nubank:7a6429c4-b771-366f-89c1-6aabeb631377","valor":"0.60","status":"rejeitado","dataCriacao":"2023-06-06T18:57:04.000Z","endToEndId":"E0908935620230606185745546c28bd6","idProprio":"254","tipo":"pagamento","motivo":"N\u00e3o informado"}
+2023-06-06 16:43:49 - {"identificadorPagamento":"urn:nubank:7a6429c4-b771-366f-89c1-6aabeb631377","valor":"0.60","status":"rejeitado","dataCriacao":"2023-06-06T18:57:04.000Z","endToEndId":"E0908935620230606185745546c28bd6","idProprio":"254","tipo":"pagamento","motivo":"N\u00e3o informado"}
+2023-06-06 16:51:15 - {"identificadorPagamento":"urn:nubank:7a6429c4-b771-366f-89c1-6aabeb631377","valor":"0.60","status":"rejeitado","dataCriacao":"2023-06-06T18:57:04.000Z","endToEndId":"E0908935620230606185745546c28bd6","idProprio":"254","tipo":"pagamento","motivo":"N\u00e3o informado"}
+2023-06-06 16:57:50 - {"identificadorPagamento":"urn:nubank:7c64e134-5aa6-3ada-b242-0645572190fb","valor":"0.60","status":"aceito","dataCriacao":"2023-06-06T19:57:37.000Z","endToEndId":"E090893562023060619577d26055bb41","idProprio":"258","tipo":"pagamento"}
+2023-06-07 15:15:10 - {"identificadorPagamento":"urn:picpay:223d323c-efa5-492c-bd92-10c31ecabb2f","valor":"0.01","status":"aceito","dataCriacao":"2023-06-07T18:15:00.000Z","endToEndId":"E090893562023060718140f2ac07b453","idProprio":"260","tipo":"pagamento"}
+2023-06-13 13:34:14 - {}
+2023-06-13 13:37:53 - {"identificadorPagamento":"urn:picpay:fc4a6bcc-f2ff-45f6-b117-9e222a0711d6","valor":"0.01","status":"aceito","dataCriacao":"2023-06-13T16:37:40.000Z","endToEndId":"E09089356202306131637a23b16797f5","idProprio":"262","tipo":"pagamento"}
+2023-06-13 13:39:31 - {"identificadorPagamento":"urn:picpay:faf7acd9-14c2-41ef-bc5c-8ea7a51da238","valor":"0.01","status":"aceito","dataCriacao":"2023-06-13T16:39:17.000Z","endToEndId":"E09089356202306131639673d604851f","idProprio":"263","tipo":"pagamento"}
+2023-06-13 13:41:25 - {"identificadorPagamento":"urn:picpay:df9d2e87-5b47-4c26-8c75-c0e7dfd8d7bb","valor":"0.01","status":"aceito","dataCriacao":"2023-06-13T16:41:12.000Z","endToEndId":"E09089356202306131641f416c259a60","idProprio":"264","tipo":"pagamento"}
+2023-06-13 13:52:54 - {"identificadorPagamento":"urn:picpay:4af6c1c2-557b-499c-bc45-165910cf7bc6","valor":"0.01","status":"aceito","dataCriacao":"2023-06-13T16:52:41.000Z","endToEndId":"E090893562023061316525c040865f8c","idProprio":"265","tipo":"pagamento"}
+2023-06-13 14:28:12 - {"identificadorPagamento":"urn:picpay:b23fa5cc-75e0-44ad-9632-6593b8edb584","valor":"0.01","status":"aceito","dataCriacao":"2023-06-13T17:27:58.000Z","endToEndId":"E090893562023061317279af986a57ae","idProprio":"266","tipo":"pagamento"}
+2023-06-13 14:31:36 - {"identificadorPagamento":"urn:picpay:ec9ecffd-c412-485f-b214-6e1230847ab1","valor":"0.01","status":"aceito","dataCriacao":"2023-06-13T17:31:23.000Z","endToEndId":"E09089356202306131731636831db995","idProprio":"267","tipo":"pagamento"}
+2023-06-13 15:05:18 - {"identificadorPagamento":"urn:picpay:f372d834-650f-4170-866e-f82e8d421b4f","valor":"0.01","status":"aceito","dataCriacao":"2023-06-13T18:05:14.000Z","endToEndId":"E090893562023061318053dcc8f4b9ad","idProprio":"268","tipo":"pagamento"}
+2023-06-13 15:34:18 - {"identificadorPagamento":"urn:picpay:14fd89ae-6a4d-487c-8af7-30b62663704a","valor":"0.01","status":"aceito","dataCriacao":"2023-06-13T18:34:00.000Z","endToEndId":"E090893562023061318333f7eae340c5","idProprio":"269","tipo":"pagamento"}
+2023-06-14 11:14:22 - {"identificadorPagamento":"urn:nubank:f8ef95a5-ea01-3400-82cd-5473aa5d8dc1","valor":"0.01","status":"aceito","dataCriacao":"2023-06-14T14:14:16.000Z","endToEndId":"E0908935620230614141445731ef2542","idProprio":"158","tipo":"pagamento"}
+2023-06-14 13:45:44 - {"identificadorPagamento":"urn:nubank:bc12f905-5f50-3dc2-a4d4-e6391512788d","valor":"0.01","status":"aceito","dataCriacao":"2023-06-14T16:45:31.000Z","endToEndId":"E09089356202306141645f6cd98272a4","idProprio":"273","tipo":"pagamento"}
+2023-06-14 13:51:31 - {"identificadorPagamento":"urn:picpay:5a615f36-8f8d-4e42-866c-23edca89560a","valor":"0.01","status":"aceito","dataCriacao":"2023-06-14T16:51:27.000Z","endToEndId":"E09089356202306141651c3b8d0570eb","idProprio":"272","tipo":"pagamento"}
+2023-06-14 13:55:31 - {"identificadorPagamento":"urn:nubank:9f0091c1-69b3-3334-993d-cfda73795aaa","status":"rejeitado","dataCriacao":"2023-06-14T16:55:30.681Z","idProprio":"231","tipo":"pagamento","motivo":"Autoriza\u00e7\u00e3o de pagamento foi negada pelo usu\u00e1rio"}
+2023-06-14 13:56:20 - {"identificadorPagamento":"urn:picpay:d23d404f-aa89-443c-b5c2-688c36b1f07f","valor":"0.01","status":"aceito","dataCriacao":"2023-06-14T16:56:07.000Z","endToEndId":"E0908935620230614165691a660a9542","idProprio":"274","tipo":"pagamento"}
+2023-06-14 14:02:37 - {"identificadorPagamento":"urn:picpay:9be59b14-2911-4eff-81c4-9a1cb2589969","valor":"0.01","status":"aceito","dataCriacao":"2023-06-14T17:02:24.000Z","endToEndId":"E09089356202306141702efd58c82e34","idProprio":"275","tipo":"pagamento"}
+2023-06-14 15:38:18 - {"identificadorPagamento":"urn:picpay:2c4774da-39b7-4401-9e4c-6366355e7bc1","valor":"0.01","status":"rejeitado","dataCriacao":"2023-06-14T18:38:18.017Z","idProprio":"278","tipo":"pagamento","motivo":"Campo obrigat\u00f3rio n\u00e3o informado"}
+2023-06-14 15:39:39 - {"identificadorPagamento":"urn:nubank:04e823dc-c287-3bee-b7ac-34da06b09933","valor":"0.01","status":"aceito","dataCriacao":"2023-06-14T18:39:26.000Z","endToEndId":"E090893562023061418393f7d2e7dfeb","idProprio":"280","tipo":"pagamento"}
+2023-06-14 15:41:20 - {"identificadorPagamento":"urn:picpay:f26cd69f-9ea3-4672-a90e-4d0c48991ff6","valor":"0.01","status":"rejeitado","dataCriacao":"2023-06-14T18:41:19.576Z","idProprio":"281","tipo":"pagamento","motivo":"Campo obrigat\u00f3rio n\u00e3o informado"}
+2023-06-14 15:45:19 - {"identificadorPagamento":"urn:picpay:00863f28-7a7e-4c1d-a396-292a14d7ef4c","valor":"0.01","status":"rejeitado","dataCriacao":"2023-06-14T18:45:19.101Z","idProprio":"283","tipo":"pagamento","motivo":"Campo obrigat\u00f3rio n\u00e3o informado"}
+2023-06-14 16:48:50 - {}
+2023-06-14 16:49:25 - {}
+2023-06-14 17:03:52 - {"identificadorPagamento":"urn:nubank:225bab43-02dc-3803-a325-b530cb79c44b","status":"rejeitado","dataCriacao":"2023-06-14T20:03:47.685Z","idProprio":"287","tipo":"pagamento","motivo":"Autoriza\u00e7\u00e3o de pagamento foi negada pelo usu\u00e1rio"}
+2023-06-15 09:56:34 - {"identificadorPagamento":"urn:picpay:f69bb5e3-a4cb-4e75-b24c-46fd051993ce","valor":"0.01","status":"aceito","dataCriacao":"2023-06-15T12:56:24.000Z","endToEndId":"E09089356202306151256c08206957d8","idProprio":"288","tipo":"pagamento"}
+2023-06-15 14:02:48 - {}
+2023-06-15 14:05:38 - {"identificadorPagamento":"urn:nubank:924a9ea4-86d3-3ca2-93a5-4ce5dce8ea83","status":"rejeitado","dataCriacao":"2023-06-15T17:05:33.695Z","idProprio":"291","tipo":"pagamento","motivo":"Autoriza\u00e7\u00e3o de pagamento foi negada pelo usu\u00e1rio"}
+2023-06-15 15:49:01 - {}
+2023-06-15 15:49:07 - {}
+2023-06-15 16:20:52 - {}
+2023-06-15 16:30:10 - {}
+2023-06-20 13:42:55 - {}
+2023-06-21 11:34:12 - {}
+2023-06-21 11:36:54 - {"identificadorPagamento":"urn:efi:3a2efc21-ddc0-4373-bd78-204165031b6b","valor":"0.60","status":"aceito","dataCriacao":"2023-06-21T14:36:40.207Z","endToEndId":"65c92e45-cd5c-4d09-918e-660513050053","idProprio":"311"}
+2023-06-21 13:37:07 - {"identificadorPagamento":"urn:efi:82a1008e-8ec3-421f-8e7f-4b328a27a12c","valor":"10.00","status":"aceito","dataCriacao":"2023-06-21T16:36:52.922Z","endToEndId":"0736424d-db04-4694-9989-15fe55251531","idProprio":"154"}
+2023-06-21 13:39:57 - {"identificadorPagamento":"urn:efi:c846e20a-ec4a-457b-96ac-5c1b07dd8fe0","valor":"0.01","status":"aceito","dataCriacao":"2023-06-21T16:39:46.373Z","endToEndId":"eb52463a-a73a-4218-9b40-09dca27f6e37","idProprio":"291"}
+2023-06-21 13:40:44 - {"identificadorPagamento":"urn:efi:31aaa691-7417-4bd7-8c00-1678684a5d3f","valor":"0.01","status":"aceito","dataCriacao":"2023-06-21T16:40:34.318Z","endToEndId":"b0d01ee8-b5a8-4bdb-9b58-6f82c63305fb","idProprio":"291"}
+2023-06-21 13:59:19 - {"identificadorPagamento":"urn:efi:35557dc0-7f42-4bce-8a91-4329942ab45b","valor":"5.00","status":"aceito","dataCriacao":"2023-06-21T16:59:05.379Z","endToEndId":"d8692211-7951-4830-88ba-08ade1e18b9e","idProprio":"317"}
+2023-06-22 13:14:46 - {}
+2023-06-22 13:16:27 - {"identificadorPagamento":"urn:picpay:42131b55-98a4-4095-bcad-47cc525f5ae3","valor":"0.01","status":"aceito","dataCriacao":"2023-06-22T16:16:17.000Z","endToEndId":"E09089356202306221616f02fa5fb375","idProprio":"356","tipo":"pagamento"}
+2023-06-22 13:40:29 - {"identificadorPagamento":"urn:nubank:75343e6a-5d0e-3763-ba57-d5cc397640d5","valor":"0.01","status":"aceito","dataCriacao":"2023-06-22T16:40:22.000Z","endToEndId":"E0908935620230622164070f16405464","idProprio":"357","tipo":"pagamento"}
+2023-06-22 13:51:39 - {"identificadorPagamento":"urn:picpay:19a4fd68-2fa1-4bba-ae38-d57b6ae2a4b9","valor":"0.01","status":"aceito","dataCriacao":"2023-06-22T16:51:29.000Z","endToEndId":"E09089356202306221651ec87f448ace","idProprio":"356","tipo":"pagamento"}
+2023-06-22 13:52:54 - {"identificadorPagamento":"urn:nubank:39c21166-e320-3b3d-bd09-43bb9337b0a2","valor":"0.01","status":"aceito","dataCriacao":"2023-06-22T16:52:50.000Z","endToEndId":"E09089356202306221652ae7a172853c","idProprio":"357","tipo":"pagamento"}
+2023-06-22 16:17:50 - {"identificadorPagamento":"urn:picpay:2430d70c-1bd6-43d3-afdf-e0d02a9f429e","valor":"0.01","status":"aceito","dataCriacao":"2023-06-22T19:17:41.000Z","endToEndId":"E0908935620230622191721c9c8747b7","idProprio":"358","tipo":"pagamento"}
+2023-06-22 16:35:14 - {"identificadorPagamento":"urn:picpay:9b65b69a-d591-47b7-83dd-1bcb6ed78906","valor":"0.01","status":"aceito","dataCriacao":"2023-06-22T19:35:01.000Z","endToEndId":"E090893562023062219355112930c634","idProprio":"359","tipo":"pagamento"}
+2023-06-22 16:36:54 - {}
+2023-06-23 11:31:36 - {}
+2023-06-23 11:32:28 - {}
+2023-06-23 11:43:45 - {}
+2023-06-23 11:45:07 - {"identificadorPagamento":"urn:efi:4a53d621-498d-420e-a6ee-97fa0bb3243e","valor":"0.60","status":"aceito","dataCriacao":"2023-06-23T14:44:52.449Z","endToEndId":"0a5c4a93-2237-4720-a236-e6e7e9d14184","idProprio":"364"}
+2023-06-23 11:50:49 - {}
+2023-06-23 12:00:09 - {"identificadorPagamento":"urn:nubank:fb89423c-fb1e-3adb-87c6-37497bc05c42","valor":"0.60","status":"rejeitado","dataCriacao":"2023-06-23T15:00:07.710Z","idProprio":"366","tipo":"pagamento","motivo":"N\u00e3o informado"}
+2023-06-23 12:06:22 - {"identificadorPagamento":"urn:nubank:06687c14-000a-3630-8f2d-0608a3457e21","valor":"0.60","status":"rejeitado","dataCriacao":"2023-06-23T15:06:22.250Z","idProprio":"366","tipo":"pagamento","motivo":"N\u00e3o informado"}
+2023-06-23 12:08:30 - {"identificadorPagamento":"urn:nubank:33de2bf8-3084-3e35-9b85-4613d6f3844e","valor":"0.60","status":"rejeitado","dataCriacao":"2023-06-23T15:08:28.444Z","idProprio":"366","tipo":"pagamento","motivo":"N\u00e3o informado"}
+2023-06-23 12:10:34 - {"identificadorPagamento":"urn:nubank:6d26c737-1bbf-3f70-98c6-8625e04ae04f","valor":"0.60","status":"rejeitado","dataCriacao":"2023-06-23T15:10:32.956Z","idProprio":"367","tipo":"pagamento","motivo":"N\u00e3o informado"}
+2023-06-23 12:17:20 - {"identificadorPagamento":"urn:nubank:3d44654a-6575-3ebf-95d8-88bf82d24597","valor":"0.60","status":"rejeitado","dataCriacao":"2023-06-23T15:17:19.630Z","idProprio":"367","tipo":"pagamento","motivo":"N\u00e3o informado"}
+2023-06-27 13:44:48 - {}
+2023-06-27 13:46:32 - {"identificadorPagamento":"urn:picpay:84e12e36-d8af-490c-9bce-574b898c84c6","valor":"0.01","status":"aceito","dataCriacao":"2023-06-27T16:46:25.000Z","endToEndId":"E09089356202306271646ae5b07e869a","idProprio":"376","tipo":"pagamento"}
+2023-06-27 13:49:55 - {"identificadorPagamento":"urn:efi:3b59d618-66ee-46d5-8a88-702130d03853","valor":"0.01","status":"aceito","dataCriacao":"2023-06-27T16:49:53.000Z","endToEndId":"E090893562023062716498dfaadbfdc4","idProprio":"377","tipo":"pagamento"}
+2023-06-27 14:11:26 - {}

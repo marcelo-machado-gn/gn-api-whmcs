@@ -6,7 +6,6 @@ if (!defined('WHMCS')) {
 require_once __DIR__ . '/../../init.php';
 require_once ROOTDIR . '/modules/gateways/efi/gerencianet_lib/handler/exception_handler.php';
 require_once ROOTDIR . '/modules/gateways/efi/gerencianet_lib/api_interaction.php';
-require_once ROOTDIR . '/modules/gateways/efi/gerencianet_lib/functions/pix/gateway_functions.php';
 include BASE_DIR . 'modules/gateways/efi/gerencianet_lib/Gerencianet_WHMCS_Interface.php';
 include BASE_DIR . 'modules/gateways/efi/gerencianet_lib/GerencianetIntegration.php';
 
@@ -55,8 +54,11 @@ function gerencianetCancelCharge($vars)
 
     $credentials    = getGatewayVariables(PAYMENT_METHOD);
     $response       = getChargeId($vars, $credentials);
+   
+    
     $gnIntegration  = $response['gn_object'];
     $chargeId       = (int)$response['charge_id'];
+ 
     if ($chargeId != 0)
         $gnIntegration->cancel_charge($chargeId);
 }
@@ -69,6 +71,7 @@ function gerencianetUpdateBillet($vars)
     $invoiceValues['invoiceid'] = $invoiceid;
     $adminWHMCS         = $paramsGateway['whmcsAdmin'];
     $invoiceData                = localAPI("getinvoice", $invoiceValues, $adminWHMCS);
+  
 
     $dueDate                    = $invoiceData['duedate'];
     $status                     = $invoiceData['status'];
@@ -82,6 +85,7 @@ function gerencianetUpdateBillet($vars)
             $date->add(new DateInterval($diasFormatado));
         }
         $newDueDate = (string)$date->format('Y-m-d');
+      
         if ($newDueDate >= date('Y-m-d')) {
             $response       = getChargeId($vars, $paramsGateway);
             $gnIntegration  = $response['gn_object'];
@@ -94,5 +98,5 @@ function gerencianetUpdateBillet($vars)
         }
     }
 }
-add_hook('InvoiceCancelled', 1, "gerencianetCancelCharge");
-add_hook('UpdateInvoiceTotal', 1, "gerencianetUpdateBillet");
+add_hook('InvoiceCancelled', 1, 'gerencianetCancelCharge');
+add_hook('UpdateInvoiceTotal', 1, 'gerencianetUpdateBillet');
